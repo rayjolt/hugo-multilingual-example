@@ -1,0 +1,6 @@
+# Folders we don't want to track
+themes/
+public/
+
+# Vim swap files
+.swp

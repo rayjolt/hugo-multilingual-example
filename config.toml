@@ -1,0 +1,33 @@
+baseURL = "http://example.org/"
+DefaultContentLanguage = "en"
+hasCJKLanguage = true
+
+[Languages]
+[Languages.en]
+title = "Multilingual Hugo Example"
+weight = 1
+
+[[Languages.en.menu.main]]
+url = "/"
+name = "Home"
+weight = 0
+
+[[Languages.en.menu.main]]
+url = "/about/"
+name = "About"
+weight = 1
+
+[Languages.ja]
+title = "Hugoの多言語例"
+weight = 0
+
+[[Languages.ja.menu.main]]
+url = "/"
+name = "ホーム"
+weight = 0
+
+[[Languages.ja.menu.main]]
+url = "/profile/"
+name = "プロフィール"
+weight = 1
+
