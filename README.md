@@ -21,3 +21,15 @@ You can then test the site using Hugo's built-in server.
 ``` console
 $ hugo server -t some-hugo-theme
 ```
+
+## Theme i18n checklist
+
+Things to do when making a theme i18n-ready:
+1. Move all hard-coded strings to [i18n files](https://gohugo.io/content/multilingual/#translation-of-strings).
+2. Add a language switcher to the site navigation.
+3. Make all links in templates [language-relative](https://gohugo.io/content/multilingual/#multilingual-themes-support).
+4. Add [links to translated content](https://gohugo.io/content/multilingual/#link-to-translated-content).
+5. Set the correct `lang` attribute on the `html` element.
+6. Set `lang` attributes for any content that is not in the page's default language, e.g. links in the language switcher.
+7. For languages with right-to-left (RTL) scripts, add `dir="rtl"` to the `html` element. (Note: as of April 2017, this is [not well-supported in Hugo](https://github.com/spf13/hugo/issues/3255).)
+8. [Flip the CSS](https://hacks.mozilla.org/2015/09/building-rtl-aware-web-apps-and-websites-part-1/) for RTL scripts.
