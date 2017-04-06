@@ -22,6 +22,14 @@ You can then test the site using Hugo's built-in server.
 $ hugo server -t some-hugo-theme
 ```
 
+### Bilingual sites
+
+The `master` branch contains content and configuration for three languages. If you want to use only two languages, you can check out the `bilingual` branch.
+
+``` console
+$ git checkout bilingual
+```
+
 ## Theme i18n checklist
 
 Things to do when making a theme i18n-ready:
