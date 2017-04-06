@@ -5,31 +5,46 @@ hasCJKLanguage = true
 [Languages]
 [Languages.en]
 title = "Multilingual Hugo Example"
-weight = 1
+weight = 0
 languagename = "English"
 
 [[Languages.en.menu.main]]
 url = "/"
 name = "Home"
-weight = 0
+weight = 1
 
 [[Languages.en.menu.main]]
 url = "/about/"
 name = "About"
+weight = 0
+
+[Languages.fr]
+title = "Multilingue Exemple Hugo"
 weight = 1
+languagename = "Français"
+
+[[Languages.fr.menu.main]]
+url = "/"
+name = "d'Accueil"
+weight = 1
+
+[[Languages.fr.menu.main]]
+url = "/a-propos/"
+name = "À propos"
+weight = 0
 
 [Languages.ja]
 title = "Hugoの多言語例"
-weight = 0
+weight = 2
 languagename = "日本語"
 
 [[Languages.ja.menu.main]]
 url = "/"
 name = "ホーム"
-weight = 0
+weight = 1
 
 [[Languages.ja.menu.main]]
 url = "/profile/"
 name = "プロフィール"
-weight = 1
+weight = 0
 
