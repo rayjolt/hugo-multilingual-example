@@ -1,6 +1,5 @@
 baseURL = "http://example.org/"
 DefaultContentLanguage = "en"
-hasCJKLanguage = true
 
 [Languages]
 [Languages.en]
@@ -31,20 +30,5 @@ weight = 1
 [[Languages.fr.menu.main]]
 url = "/a-propos/"
 name = "À propos"
-weight = 0
-
-[Languages.ja]
-title = "Hugoの多言語例"
-weight = 2
-languagename = "日本語"
-
-[[Languages.ja.menu.main]]
-url = "/"
-name = "ホーム"
-weight = 1
-
-[[Languages.ja.menu.main]]
-url = "/profile/"
-name = "プロフィール"
 weight = 0
 
