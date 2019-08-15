@@ -8,7 +8,7 @@ Another purpose of this repository is for testing [Hugo themes](http://themes.go
 
 ## Usage
 
-To see how this repository looks with a certain theme, just clone it, then clone the theme into a subdirectory of the `themes` directory.
+To see how this repository looks with a certain theme, clone it, then clone the theme into a subdirectory of the `themes` directory.
 
 ``` console
 $ git clone https://github.com/rayjolt/hugo-multilingual-example.git
