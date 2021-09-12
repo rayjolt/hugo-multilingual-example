@@ -44,7 +44,3 @@ Vimeo:
 GitHub gists:
 
 {{< gist spf13 7896402 >}}
-
-Instagram:
-
-{{< instagram BMokmydjG-M >}}
