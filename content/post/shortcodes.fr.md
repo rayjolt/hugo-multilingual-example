@@ -45,10 +45,6 @@ GitHub gist:
 
 {{< gist spf13 7896402 >}}
 
-Speaker Deck:
-
-{{< speakerdeck 4e8126e72d853c0060001f97 >}}
-
 Instagram:
 
 {{< instagram BMokmydjG-M >}}
