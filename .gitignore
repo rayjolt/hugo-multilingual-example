@@ -4,3 +4,6 @@ public/
 
 # Vim swap files
 .swp
+
+# Build artifacts
+.hugo_build.lock

@@ -31,7 +31,7 @@ Relref：[プロフィール]({{< ref "about.ja.md" >}})
 
 ツイッター
 
-{{< tweet 666616452582129664 >}}
+{{< tweet user="spf13" id="666616452582129664" >}}
 
 YouTube：
 

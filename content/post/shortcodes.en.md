@@ -31,7 +31,7 @@ Relref: [About]({{< ref "about.en.md" >}})
 
 Twitter:
 
-{{< tweet 666616452582129664 >}}
+{{< tweet user="spf13" id="666616452582129664" >}}
 
 YouTube:
 
